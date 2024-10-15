@@ -198,3 +198,7 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 JET_SIDE_MENU_COMPACT = True
 
 CORS_ALLOW_ALL_ORIGINS = True
+
+CSRF_TRUSTED_ORIGINS = [
+    'https://beam-project-o6t9.onrender.com',
+]
